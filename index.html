@@ -9,11 +9,11 @@
     <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script
-  src="https://code.jquery.com/jquery-migrate-3.4.1.js"></script>
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script>
     $(document).ready(function(){
         $('#icon').click( function(){
-            $('ul'.toggleClass('show'))
+            $('ul').toggleClass('show');
         }
         );
     }
@@ -30,11 +30,14 @@
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#feedback">Ratings</a></li>
-            <label id="icon">
-                <i class="fas fa-bars"></i>
-            </label>
+            <li><a href="#feedback">Ratings</a></l i>
+            
         </ul>
+
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+
     </nav>
 
     <!-- section-->

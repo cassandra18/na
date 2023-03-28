@@ -38,7 +38,7 @@ nav{
 nav ul{
 
 float: right;
-margin-right: 50px;
+margin-right: 40px;
 }
 
 nav li{
@@ -56,7 +56,7 @@ nav a{
     border: 1px solid transparent;
 }
 
-a.actie, a:hover{
+a.active,a:hover{
     border: 1px solid white;
     border-radius: 3px;
     transition: 0.5s;
@@ -66,9 +66,10 @@ nav #icon{
     display: none;
     margin-right: 40px;
     cursor: pointer;
-    color:none;
+    color:white;
     line-height: 80px;
     float: right;
+    font-size: 30px;
 }
 
 section{
@@ -80,7 +81,7 @@ section{
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 1048px){
+@media screen and  (max-width: 1048px){
     label.logo{
         font-size: 32px;
         padding-left:60px;
@@ -98,7 +99,7 @@ section{
     }
 }
 
-@media screen and (max-width:909px){
+@media screen and (max-width: 909px){
     nav #icon{
         display: block;
 
@@ -109,7 +110,7 @@ section{
         width: 100%;
         height: 100vh;
         background: #2f3640;
-        top:0;
+        top:80px;
         left:-100% ;
         text-align: center;
         transition: all 0.5s;
@@ -124,11 +125,11 @@ section{
 
     }
 
-    a{
+    nav a{
         font-size: 20px;
     }
 
-    a.active, a:hover{
+    a.active,a:hover{
         border: none;
         color: #3498db;
 
